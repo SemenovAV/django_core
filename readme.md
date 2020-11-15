@@ -1,3 +1,4 @@
+![Build](https://github.com/SemenovAV/django_core/workflows/Build/badge.svg)
 # Django template
 
 ## First usage
