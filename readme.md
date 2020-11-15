@@ -25,7 +25,7 @@
    - `/config` - основной проект django 
    - `manage.py`  
  - `.editorconfig` - настройки ide, требует установки соответствующего плагина ([download page](https://editorconfig.org/#download))
- - `.env` - необходимо создать. **Должен присутствовать в .gitignore!** Содержит используемые для работы переменные ([об этом ниже](###переменные-окружения)).
+ - `.env` - необходимо создать. **Должен присутствовать в .gitignore!** Содержит используемые для работы переменные ([об этом ниже](#переменные-окружения)).
    Доступ к переменным из кода получаем с помощью `os.enveron.get('var_name',default_value)`
  - `.gitatributes` - настройки поведения клиента git ([зачем это здесь?](https://htmlacademy.ru/blog/boost/tools/konec-stroki), [документация](https://git-scm.com/docs/gitattributes))
  - `.gitignore`
