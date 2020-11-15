@@ -23,10 +23,9 @@
      - `python-app.yml` - конфиг линтеров и тестирования приложения
  - `/src` - рабочий каталог, содержит код сервера django
    - `/config` - основной проект django 
-   - `manage.py` 
-   - `utils.py` 
+   - `manage.py`  
  - `.editorconfig` - настройки ide, требует установки соответствующего плагина ([download page](https://editorconfig.org/#download))
- - `.env` - необходимо создать. **Должен присутствовать в .gitignore!** Содержит используемые для работы переменные (об этом ниже).
+ - `.env` - необходимо создать. **Должен присутствовать в .gitignore!** Содержит используемые для работы переменные ([об этом ниже](###переменные-окружения)).
    Доступ к переменным из кода получаем с помощью `os.enveron.get('var_name',default_value)`
  - `.gitatributes` - настройки поведения клиента git ([зачем это здесь?](https://htmlacademy.ru/blog/boost/tools/konec-stroki), [документация](https://git-scm.com/docs/gitattributes))
  - `.gitignore`
@@ -68,7 +67,7 @@
 Запуск сервера:
 - Linux: `python3 ./src/manage.py runserver`
 - Windows: `python ./src/manage.py runserver`
-- MacOS: `хз как - Андрей я думаю знает :)` 
+- MacOS: `python3 ./src/manage.py runserver` 
 
 Итак:
 БД - для использования PostgeSQL - установить переменную в .env POSTGRES=on.
