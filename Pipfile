@@ -9,20 +9,12 @@ fix = "black --line-length=130 --target-version=py38 --verbose ./src"
 test = "coverage run --source='./src' -m pytest --suppress-no-test-exit-code"
 serve = "python ./src/manage.py runserver"
 
-
-[requires]
-python_version = "3.8.6"
-
 [packages]
 django = "*"
-djangorestframework = "*"
-django-cors-headers = "*"
-psycopg2-binary = "*"
 requests = "*"
 
 [dev-packages]
 ipython = "*"
-django-debug-toolbar = "*"
 commitizen = "*"
 pre-commit = "*"
 black = "*"
