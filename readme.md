@@ -40,6 +40,7 @@
 
 Обязательно:
 - `SECRET_KEY` - cекретный ключ Django
+- `PYTHONPATH= ./src` - корень проекта
 
 Если используем Postgres:
 - `POSTGRES` - для использования Postgres устанавливаем значение `on`.
